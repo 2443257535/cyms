@@ -1,0 +1,86 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/menus/menu",
+			"style": {
+				"navigationBarTitleText": "点餐台 - 5号台"
+			}
+		},
+		{
+			"path": "pages/tabbar/cart/cart",
+			"style": {
+				"navigationBarTitleText": "5号台"
+			}
+		},
+		{
+			"path": "pages/tabbar/cart/cashier-desk",
+			"style": {
+				"navigationBarTitleText": "收银台"
+			}
+		},
+		{
+			"path": "pages/tabbar/cart/pay-success",
+			"style": {
+				"navigationBarTitleText": "结账完成"
+			}
+		},
+		{
+			"path": "pages/tabbar/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/tabbar/order/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "订餐中心",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#333",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabbar/menus/menu",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "菜单"
+			},
+			{
+				"pagePath": "pages/tabbar/cart/cart",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "购物车"
+			},
+			//#ifdef MP-WEIXIN
+			//#endif
+			{
+				"pagePath": "pages/tabbar/order/order",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/tabbar/my/my",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我的"
+			}
+		]
+	}
+}

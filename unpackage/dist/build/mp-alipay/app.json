@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/tabbar/menus/menu",
+    "pages/tabbar/cart/cart",
+    "pages/tabbar/cart/cashier-desk",
+    "pages/tabbar/cart/pay-success",
+    "pages/tabbar/order/order",
+    "pages/tabbar/order/order-detail",
+    "pages/tabbar/my/my"
+  ],
+  "window": {
+    "defaultTitle": "订餐中心",
+    "titleBarColor": "#FFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#8F8F94",
+    "selectedColor": "#f33e54",
+    "backgroundColor": "#333",
+    "items": [
+      {
+        "pagePath": "pages/tabbar/menus/menu",
+        "name": "菜单",
+        "icon": "static/img/tabbar/home.png",
+        "activeIcon": "static/img/tabbar/homeactive.png"
+      },
+      {
+        "pagePath": "pages/tabbar/cart/cart",
+        "name": "购物车",
+        "icon": "static/img/tabbar/guanzhu.png",
+        "activeIcon": "static/img/tabbar/guanzhuactive.png"
+      },
+      {
+        "pagePath": "pages/tabbar/order/order",
+        "name": "订单",
+        "icon": "static/img/tabbar/news.png",
+        "activeIcon": "static/img/tabbar/newsactive.png"
+      },
+      {
+        "pagePath": "pages/tabbar/my/my",
+        "name": "我的",
+        "icon": "static/img/tabbar/me.png",
+        "activeIcon": "static/img/tabbar/meactive.png"
+      }
+    ]
+  }
+}

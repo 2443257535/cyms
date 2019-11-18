@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "点餐台 - 5号台",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-swiper": "/components/uni-swiper-dot/uni-swiper-dot"
+  }
+}

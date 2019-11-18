@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "5号台",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker"
+  }
+}

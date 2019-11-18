@@ -1,0 +1,25 @@
+<import src="/components/uni-number-box/uni-number-box.vue.wxml" />
+<import src="/components/uni-popup/uni-popup.vue.wxml" />
+<import src="/components/uni-grid/uni-grid.vue.wxml" />
+<import src="/components/uni-grid-item/uni-grid-item.vue.wxml" />
+<import src="/components/w-picker/w-picker.vue.wxml" />
+<import src="/components/uni-segmented-control/uni-segmented-control.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/uni-badge/uni-badge.vue.wxml" />
+
+<template name="data-v-476ef958-default-addeee0c-3"><view class="_view data-v-476ef958 product-detail"><uni-swiper-dot info="{{swiperList}}" current="{{current}}" class="_uni-swiper-dot data-v-476ef958 runbo"><swiper class="_swiper data-v-476ef958 swiper-box" bindchange="handleProxy" data-eventid="{{'addeee0c-4'}}" data-comkey="{{$k}}"><swiper-item wx:key="index" key="{{index}}" wx:for="{{swiperList}}" wx:for-index="indx" wx:for-item="item" class="_swiper-item data-v-476ef958"><image src="{{item.url}}" class="_image data-v-476ef958"></image></swiper-item></swiper></uni-swiper-dot><view class="_view data-v-476ef958 dish dish-name"><view class="_view data-v-476ef958 title">辣椒炒肉</view><view class="_view data-v-476ef958 box"><text class="_text data-v-476ef958 label">做法</text><view class="_view data-v-476ef958 btns"><button size="mini" type="default" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'addeee0c-5-'+index}}" data-comkey="{{$k}}" wx:for="{{btns}}" wx:for-index="index" wx:for-item="item" class="_button data-v-476ef958 {{item.active ? 'active' : ''}}">{{ item.text }}</button></view></view><view class="_view data-v-476ef958 box"><text class="_text data-v-476ef958 label">醬汁</text><view class="_view data-v-476ef958 btns"><button size="mini" type="default" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'addeee0c-6-'+index}}" data-comkey="{{$k}}" wx:for="{{btns}}" wx:for-index="index" wx:for-item="item" class="_button data-v-476ef958 {{item.active ? 'active' : ''}}">{{ item.text }}</button></view></view></view><view class="_view data-v-476ef958 dish dish-detail"><view class="_view data-v-476ef958 title">菜品詳情</view><view class="_view data-v-476ef958 box">湘菜招牌菜味道還不錯 吃了還想吃</view></view></view></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-0"><text class="_text data-v-c5ba0820 iconfont"></text><text class="_text data-v-c5ba0820 text">邀请注册</text></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-1"><text class="_text data-v-c5ba0820 iconfont"></text><text class="_text data-v-c5ba0820 text">收藏酒店</text></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-2"><text class="_text data-v-c5ba0820 iconfont"></text><text class="_text data-v-c5ba0820 text">会员特权</text></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-3"><text class="_text data-v-c5ba0820 iconfont"></text><text class="_text data-v-c5ba0820 text">中奖记录</text></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-4"><text class="_text data-v-c5ba0820 iconfont"></text><text class="_text data-v-c5ba0820 text">点评记录</text></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-5"><text class="_text data-v-c5ba0820 iconfont"></text><text class="_text data-v-c5ba0820 text">分销记录</text></template>
+
+<template name="data-v-c5ba0820-default-750c38e2-6"><template data="{{...$root['0'], ...$root[$kk+'750c38e2-0'],$root, $slotdefault:'data-v-c5ba0820-default-750c38e2-0'}}" is="df4b1950"></template><template data="{{...$root['0'], ...$root[$kk+'750c38e2-1'],$root, $slotdefault:'data-v-c5ba0820-default-750c38e2-1'}}" is="df4b1950"></template><template data="{{...$root['0'], ...$root[$kk+'750c38e2-2'],$root, $slotdefault:'data-v-c5ba0820-default-750c38e2-2'}}" is="df4b1950"></template><template data="{{...$root['0'], ...$root[$kk+'750c38e2-3'],$root, $slotdefault:'data-v-c5ba0820-default-750c38e2-3'}}" is="df4b1950"></template><template data="{{...$root['0'], ...$root[$kk+'750c38e2-4'],$root, $slotdefault:'data-v-c5ba0820-default-750c38e2-4'}}" is="df4b1950"></template><template data="{{...$root['0'], ...$root[$kk+'750c38e2-5'],$root, $slotdefault:'data-v-c5ba0820-default-750c38e2-5'}}" is="df4b1950"></template></template>
+

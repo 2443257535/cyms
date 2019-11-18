@@ -1,0 +1,2 @@
+<import src="./cashier-desk.vue.swan" />
+    <template is="5c7816dc" data="{{{ ...$root['0'], $root }}}"/>

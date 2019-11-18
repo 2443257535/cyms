@@ -1,0 +1,18 @@
+<import src="/components/uni-grid-item/uni-grid-item.vue.swan" />
+
+<template name="default_0" parent="addeee0c"><view class="_view product-detail"><uni-swiper-dot class="_uni-swiper-dot runbo" info="{{ h[ 2023 + _t ][ 'info' ] }}" current="{{ h[ 2023 + _t ][ 'current' ] }}"><swiper class="_swiper swiper-box" data-cid="{{ _c || c }}" data-hid="{{ 3025 + _t }}" bindchange="_pe"><swiper-item s-for="{{ h[ 3026 + _t ].li }}" s-key="index" s-for-item="item" s-for-index="index" class="_swiper-item"><image class="_image image" src="{{ h[ 3027 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) ][ 'src' ] }}"></image></swiper-item></swiper></uni-swiper-dot><view class="_view dish dish-name"><view class="_view title">辣椒炒肉</view><view class="_view box"><text class="_text label">做法</text><view class="_view btns"><button s-for="{{ h[ 3035 + _t ].li }}" s-key="index" s-for-item="item" s-for-index="index" class="_button btn {{ h[ 3035 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) ].cl }}" size="mini" type="default" data-cid="{{ _c || c }}" data-hid="{{ 3035 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) }}" bindtap="_pe">{{ h[ 3036 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) ].t }}</button></view></view><view class="_view box"><text class="_text label">醬汁</text><view class="_view btns"><button s-for="{{ h[ 3041 + _t ].li }}" s-key="index" s-for-item="item" s-for-index="index" class="_button btn {{ h[ 3041 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) ].cl }}" size="mini" type="default" data-cid="{{ _c || c }}" data-hid="{{ 3041 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) }}" bindtap="_pe">{{ h[ 3042 + _t + '_' + (item_i2 !== undefined ? item_i2 : index) ].t }}</button></view></view></view><view class="_view dish dish-detail"><view class="_view title">菜品詳情</view><view class="_view box">湘菜招牌菜味道還不錯 吃了還想吃</view></view></view></template>
+
+<template name="default_1" parent="750c38e2"><text class="_text iconfont"></text><text class="_text text">邀请注册</text></template>
+
+<template name="default_2" parent="750c38e2"><text class="_text iconfont"></text><text class="_text text">收藏酒店</text></template>
+
+<template name="default_3" parent="750c38e2"><text class="_text iconfont"></text><text class="_text text">会员特权</text></template>
+
+<template name="default_4" parent="750c38e2"><text class="_text iconfont"></text><text class="_text text">中奖记录</text></template>
+
+<template name="default_5" parent="750c38e2"><text class="_text iconfont"></text><text class="_text text">点评记录</text></template>
+
+<template name="default_6" parent="750c38e2"><text class="_text iconfont"></text><text class="_text text">分销记录</text></template>
+
+<template name="default_7" parent="750c38e2"><template is="df4b1950" data="{{{ ...$root[ cp + 1 + _t ], $root, s_default: 'default_1', _t: _t || '' }}}" /><template is="df4b1950" data="{{{ ...$root[ cp + 2 + _t ], $root, s_default: 'default_2', _t: _t || '' }}}" /><template is="df4b1950" data="{{{ ...$root[ cp + 3 + _t ], $root, s_default: 'default_3', _t: _t || '' }}}" /><template is="df4b1950" data="{{{ ...$root[ cp + 4 + _t ], $root, s_default: 'default_4', _t: _t || '' }}}" /><template is="df4b1950" data="{{{ ...$root[ cp + 5 + _t ], $root, s_default: 'default_5', _t: _t || '' }}}" /><template is="df4b1950" data="{{{ ...$root[ cp + 6 + _t ], $root, s_default: 'default_6', _t: _t || '' }}}" /></template>
+
